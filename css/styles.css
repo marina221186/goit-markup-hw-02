@@ -175,7 +175,7 @@ body {
 }
 .type-address:hover,
 .type-address:focus {
-  color: rgba(132, 157, 204, 1);
+  color: rgb(178, 187, 204);
 }
 .letter-footer {
   color: #ffffff;
