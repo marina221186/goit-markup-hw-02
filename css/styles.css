@@ -54,12 +54,13 @@ body {
   color: var(--accent-color);
 }
 
-.main-type {
+/*.main-type {
   text-align: center;
-}
+}*/
 /*Шапка*/
 .hat-item {
   background: #2f303a;
+  text-align: center;
 }
 
 .hat-type {
@@ -68,9 +69,11 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
 }
 .model-btm {
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -97,6 +100,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
   color: var(--text-accent-color);
 }
 .text-link {
@@ -171,7 +175,7 @@ body {
 }
 .type-address:hover,
 .type-address:focus {
-  color: #666;
+  color: rgba(132, 157, 204, 1);
 }
 .letter-footer {
   color: #ffffff;
@@ -179,7 +183,7 @@ body {
 /*===========Portfolio===========*/
 /*button filters*/
 .filter-link {
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.63;
