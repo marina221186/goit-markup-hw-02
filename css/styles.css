@@ -53,9 +53,7 @@ body {
 .info-address:focus {
   color: var(--accent-color);
 }
-.info-address.current {
-  color: var(--accent-color);
-}
+
 .main-type {
   text-align: center;
 }
@@ -173,7 +171,7 @@ body {
 }
 .type-address:hover,
 .type-address:focus {
-  color: var(--accent-color);
+  color: #666;
 }
 .letter-footer {
   color: #ffffff;
@@ -181,13 +179,13 @@ body {
 /*===========Portfolio===========*/
 /*button filters*/
 .filter-link {
-  font-weight: 500;
+  font-family: Roboto;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
-  cursor: pointer;
-  color: var(--text-accent-color);
+  color: #212121;
 }
 .filter-link:hover,
 .filter-link:focus {
@@ -213,4 +211,10 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
+}
+.type-picture {
+  height: 294px;
+  width: 370px;
+  left: 215px;
+  top: 262px;
 }
